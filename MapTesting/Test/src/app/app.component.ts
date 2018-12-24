@@ -10,6 +10,7 @@ import VectorSource from 'ol/layer/Vector';
 import Vector from 'ol/layer/Vector';
 import Feature from 'ol/feature';
 import Point from 'ol/geom/point';
+import Projection from 'ol/proj/projection';
 
 
 
@@ -30,8 +31,9 @@ export class AppComponent implements OnInit {
 
   ngOnInit(){
     this.initializeMap();
-    this.temppoint.setCoordinates([38.008075,23.766861], 'XY');
-    this.tempfeat.
+    this.temppoint.setCoordinates(toLonLat([38.008075,23.766861]), 'XY');
+    this.tempfeat.setGeometry(this.temppoint);
+    this.overlay.addFeature(this.tempfeat);
   }
   
 
