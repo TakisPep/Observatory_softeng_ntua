@@ -33,6 +33,7 @@ export class AppComponent implements OnInit {
   overlay: VectorSource;
   tempfeat: Feature;
   temppoint: Point;
+  temmppoint.setCoordinates([38.008075:number,23.766861:number],'XY':string);
   
 
   initializeMap(){
