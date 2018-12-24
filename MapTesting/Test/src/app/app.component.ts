@@ -22,18 +22,17 @@ import Point from 'ol/geom/point';
 export class AppComponent implements OnInit {
   title = 'Test';
   map;
+  overlay: VectorSource;
+  tempfeat: Feature;  
+  temppoint: Point;
 //  constructor( private _points:MapPoints){}
   public contrib=[];
 
   ngOnInit(){
     this.initializeMap();
-  //  this._points.getPoints()
-  //    .subscribe(data=>this.contrib=data);
+    this.temppoint.setCoordinates([38.008075,23.766861], 'XY');
+    this.tempfeat.
   }
-  overlay: VectorSource;
-  tempfeat: Feature;
-  temppoint: Point;
-  temmppoint.setCoordinates([38.008075:number,23.766861:number],'XY':string);
   
 
   initializeMap(){

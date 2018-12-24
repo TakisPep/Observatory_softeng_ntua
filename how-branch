@@ -1,0 +1,101 @@
+[33mcommit 16340739e3527adf7ebc6692d405d471d1b4f36d[m[33m ([m[1;36mHEAD -> [m[1;32mgiannis[m[33m, [m[1;31mgitlab/giannis[m[33m)[m
+Author: JDnikolo <j.nikolo@gmail.com>
+Date:   Mon Dec 24 11:49:24 2018 +0200
+
+    test
+
+[33mcommit 1c3220ffad94f293616559cc15ff533f42454423[m[33m ([m[1;32mmaster[m[33m)[m
+Author: JDnikolo <j.nikolo@gmail.com>
+Date:   Mon Dec 24 11:22:06 2018 +0200
+
+    new
+
+[33mcommit b1a902dbc4a871f1c37ce3b474992b2e2bb77623[m[33m ([m[1;31mgitlab/master[m[33m)[m
+Author: JDnikolo <j.nikolo@gmail.com>
+Date:   Mon Dec 24 11:02:40 2018 +0200
+
+    new
+
+[33mcommit 1e06a55ada7e1e147b13d790ea8ad02c28040df5[m
+Author: Dimitris Starantzis <jimstaras@gmail.com>
+Date:   Mon Dec 24 08:24:48 2018 +0000
+
+    Update MapTesting/a.txt
+
+[33mcommit a4c6d3e4c3353c542ebb14f212d7cb2625e5676f[m
+Author: Dimitris Starantzis <jimstaras@gmail.com>
+Date:   Mon Dec 24 08:03:22 2018 +0000
+
+    Update MapTesting/a.txt
+
+[33mcommit 51dedf60941b16ab829cd8fc47e927613e427a4a[m
+Author: JDnikolo <j.nikolo@gmail.com>
+Date:   Sun Dec 23 23:48:05 2018 +0200
+
+    new testing
+
+[33mcommit 6efd34742cfd879ccc67486f33097da4ce18e57d[m
+Author: JDnikolo <j.nikolo@gmail.com>
+Date:   Sun Dec 16 20:14:50 2018 +0200
+
+    new files
+
+[33mcommit f8f8d6630a7505843ca9f268f4b68b6c39eda297[m
+Author: Andreas Kontogiannis <el15187@central.ntua.gr>
+Date:   Thu Dec 13 18:20:45 2018 +0000
+
+    Delete newShop.java
+
+[33mcommit 482c8611ea8bfb1be5784178c61cf7f9d940de02[m
+Author: Ioannis Nikolopoulos <j.nikolo@gmail.com>
+Date:   Thu Dec 13 14:52:18 2018 +0000
+
+    Add CHANGELOG
+
+[33mcommit 8e4e62c14fe280a9b7b5455f71371748f9720f4c[m
+Author: Ioannis Nikolopoulos <j.nikolo@gmail.com>
+Date:   Thu Dec 13 14:43:45 2018 +0000
+
+    Update Observatory/newShop.java
+
+[33mcommit 38f8ea0454e6d3a23065de9ea121aad7512c5311[m
+Author: Peppas Panagiotis <takismospao@gmail.com>
+Date:   Mon Dec 3 22:56:50 2018 +0000
+
+    Upload New File
+
+[33mcommit 1e476235d99967c95b692b94584225fe3b1de468[m
+Author: Vasileios Pollatos <vaspoll97@gmail.com>
+Date:   Mon Dec 3 22:55:38 2018 +0000
+
+    Upload New File
+
+[33mcommit 488ff1b29ce7f1e41539afb85dd829e30b309b86[m
+Author: Andreas Kontogiannis <el15187@central.ntua.gr>
+Date:   Mon Dec 3 22:55:19 2018 +0000
+
+    Upload New File
+
+[33mcommit 27a8a2e06206674f32afe3f3e027e3b746fdfc43[m
+Author: Dimitris Starantzis <jimstaras@gmail.com>
+Date:   Mon Dec 3 22:53:10 2018 +0000
+
+    Upload New File
+
+[33mcommit 53c5ae576ea8ed4c1ed6b1dbf011168a355e134c[m
+Author: Dimitris Starantzis <jimstaras@gmail.com>
+Date:   Mon Dec 3 22:52:24 2018 +0000
+
+    Document files
+
+[33mcommit 70165c53cae4acbe2ff820f71c2354188c100704[m
+Author: Dimitris Starantzis <jimstaras@gmail.com>
+Date:   Mon Dec 3 22:51:06 2018 +0000
+
+    Update README.md
+
+[33mcommit 63802012bd63633db0f6447c1e93f3bc48b9dc5c[m
+Author: Ioannis Nikolopoulos <j.nikolo@gmail.com>
+Date:   Thu Nov 1 14:38:29 2018 +0000
+
+    Initial commit
