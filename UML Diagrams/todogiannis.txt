@@ -1,4 +1,9 @@
-View Profile
-Edit Profile
-Logout
-Browse Entries
+Pending
+Activity Diagrams:
+    View Profile
+    Edit Profile
+    Logout
+    Browse Entries
+
+Done:
+Sign-in
