@@ -1,0 +1,4 @@
+View Profile
+Edit Profile
+Logout
+Browse Entries
