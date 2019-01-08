@@ -2,10 +2,11 @@ Pending
 Activity Diagrams:
     
     
-    Logout
-    Browse Entries
+    
 
 Done:
-Sign-in
+Sign-up *(changed format)
 View Profile
 Edit Profile
+Logout
+Browse Entries
