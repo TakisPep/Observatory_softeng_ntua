@@ -1,0 +1,12 @@
+Pending
+Activity Diagrams:
+    
+    
+    
+
+Done:
+Sign-up *(changed format)
+View Profile
+Edit Profile
+Logout
+Browse Entries
