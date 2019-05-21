@@ -1,2 +1,0 @@
-https://gis.stackexchange.com/questions/153092/add-feature-manually-to-a-vector-layer-in-ol3
-geia
