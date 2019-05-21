@@ -1335,11 +1335,11 @@ def funcPrices(request):
         part1 = "(SELECT Observation_id, Price_id FROM Price WHERE " + app1 + app3 + app4 + app2 + ") as A INNER JOIN "
         part2 = "(SELECT DISTINCT Pr.Observation_id, Pr.Price_id FROM Observation AS Ob, Amenities AS Am, Price AS Pr WHERE Am.Amenity IN " + tags1 + " AND Ob.Observation_id = Am.Observation_id  AND Pr.Observation_id = Ob.Observation_id) as B ON A.Observation_id = B.Observation_id AND A.Price_id = B.Price_id INNER JOIN "
         part3 = "(SELECT DISTINCT Pr.Observation_id, Pr.Price_id FROM Company AS Co, Observation AS Ob, Email AS Em, Price AS Pr WHERE Em.Email IN " + tags1 + " AND Ob.Observation_id = Am.Observation_id  AND Pr.Observation_id = Ob.Observation_id AND Co.Company_id = Pr.Company_id AND Em.Company_id = Co.Company_id) as C ON C.Observation_id = B.Observation_id AND C.Price_id = B.Price_id"
-        query = "SELECT DISTINCT P.Price AS price, O.Observation_id, O.Name, A.Amenity, C.Company_id, C.Name, E.Email, C.Address, " + q1 + " P.Date AS date " + "FROM Observation AS O, Amenities AS A, Price AS P, Company AS C, Email AS E WHERE O.Observation_id = A.Observation_id  AND P.Observation_id = O.Observation_id AND C.Company_id = P.Company_id AND E.Company_id = C.Company_id " + "AND (O.Observation_id, P.Price_id) IN (" + part1 + part2 + part3 + ") " + srt + sort1
+        query = "SELECT DISTINCT P.Price AS price, O.Observation_id, O.Name, A.Amenity, C.Company_id, C.Name, E.Email, C.Address, " + q1 + " P.Date AS date " + "FROM Observation AS O, Amenities AS A, Price AS P, Company AS C, Email AS E WHERE O.Observation_id = A.Observation_id  AND P.Observation_id = O.Observation_id AND C.Company_id = P.Company_id AND E.Company_id = C.Company_id " + "AND (O.Observation_id, P.Price_id) IN (" + part1 + part2 + part3 + ") " + srt + sort1 + " LIMIT " + str(count) + " OFFSET " + str(start) + ";"
         
         if tags1 == "()":
             part1 = "(SELECT Observation_id, Price_id FROM Price WHERE " + app1 + app3 + app4 + app2 + ") "
-            query = "SELECT DISTINCT P.Price AS price, O.Observation_id, O.Name, A.Amenity, C.Company_id, C.Name, E.Email, C.Address, " + q1 + " P.Date AS date " + "FROM Observation AS O, Amenities AS A, Price AS P, Company AS C, Email AS E WHERE O.Observation_id = A.Observation_id  AND P.Observation_id = O.Observation_id AND C.Company_id = P.Company_id AND E.Company_id = C.Company_id " + "AND ( O.Observation_id, P.Price_id ) IN " + part1 + srt + sort1            
+            query = "SELECT DISTINCT P.Price AS price, O.Observation_id, O.Name, A.Amenity, C.Company_id, C.Name, E.Email, C.Address, " + q1 + " P.Date AS date " + "FROM Observation AS O, Amenities AS A, Price AS P, Company AS C, Email AS E WHERE O.Observation_id = A.Observation_id  AND P.Observation_id = O.Observation_id AND C.Company_id = P.Company_id AND E.Company_id = C.Company_id " + "AND ( O.Observation_id, P.Price_id ) IN " + part1 + srt + sort1 + " LIMIT " + str(count) + " OFFSET " + str(start) + ";"            
               
         print(query)
  
@@ -1349,7 +1349,3 @@ def funcPrices(request):
         print(result)
         
         return JsonResponse({ "message": "OK" })
-
-
-    
-

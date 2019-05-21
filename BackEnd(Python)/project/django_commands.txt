@@ -1,0 +1,17 @@
+DJANGO PROJECT
+. python3
+. pip install Django==2.1.7
+
+python manage.py runserver
+python manage.py inspectdb > models.py
+python manage.py makemigrations api
+python manage.py migrate
+
+Αφου εχεις συνδεσει την db               ---->   localhost:[το port σου]/admin
+python manage.py createsuperuser  
+Μεσα στο admin.py:
+from django.contrib import admin
+from .models import Observation, Company, Price
+admin.site.register(Observation)
+admin.site.register(Company)
+admin.site.register.(Price)
